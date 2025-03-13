@@ -1,0 +1,17 @@
+14.1	Development Project Naming Standards
+
+14.3.2	Fix and Fix Pack Naming Standards
+
+14.3.3	Revisions of a Software Release
+
+14.3.3.1	Software Revision Folder Names
+In addition to stating the R# in the product all revision of product releases will include a statement in the Release Notes as to the importance of installing the release.  The statement should include advice if installing the revision is a required pre-requisite for subsequent fix packs or service packs.  The statement will also include the build number of the original release and any prior revisions. The Release Notes filename shall NOT be updated to include the _R<#> label; to do so would infer that the Release Notes are only applicable to the software revision, which is not the case.
+
+
+Folder names on Preserved and Latest do not contain the revision number. This is to allow revisions to be built without the need to make updates to the build output location.
+
+Revisions of a Software Release	130
+
+If a product release has to be revised after it has been released then R# is inserted before the file extension to indicate this is a revised release of that product release
+All other aspects of the naming standards apply as normal.  The revision numbers start at 2.
+Folder names on Preserved and Latest do not contain the revision number. This is to allow revisions to be built without the need to make updates to the build output location.
